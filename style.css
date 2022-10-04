@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(font/JosefinSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Josefin Sans;
+}
+body{
+    background-color: #FAEBD7;
+}
+nav{
+    padding: 15px 50px 5px;
+    border-bottom: 1px dashed;
+}
+nav img{
+    width: 100px;
+
+} 
+nav ul{
+    float: right;
+    padding-top: 40px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+.accueil{
+    color: red;
+    text-decoration: underline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* *************************    MAIN    ************************** */
+
+.img-back{
+    background-image: url(images/banniere.svg);
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+    width: 94%;
+    margin: 10px auto 30px;
+}
+.para-button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.509);
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.para-button p{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.para-button button{
+    float: right;
+    margin-right: 10px;
+    background-color: #740909;
+    color: white;
+    padding: 7px 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* *************************    ABOUT    ************************** */
+.about{
+    width: 94%;
+    margin: 20px auto;
+    border-bottom: 1px dashed;
+    padding-bottom: 20px;
+
+}
+
+.about p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.titre-para{
+    width: 60%;
+    display: inline-block;
+    margin-right: 8%;
+}
+.titre-para h2{
+    display: inline;
+    margin-left: 5px;
+}
+
+aside {
+    width: 30%;   
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #8B8A82;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+aside h2{
+    margin-top: 20px;
+}
+aside .logo-3wa{
+    width: 120px;
+    margin: 20px 0 0px;
+}
+.rss img{
+    width: 20px;
+    padding: 15px 10px 0;
+}
+
+/* *************************    FOOTER    ************************** */
+
+footer{
+    width: 80%;
+    padding-left: 44px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+footer div{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+footer h2{
+    margin-bottom: 20px;
+}
+footer p{
+    margin-bottom: 15px;
+}
+
+footer div img{
+    display: inline-block;
+    width: 100px;
+    border: 5px solid #6799E1;
+}
+footer ul{
+    padding-left: 40px;
+    color: #852424;
+}
